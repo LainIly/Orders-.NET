@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Orders.Backend.Controllers.CountriesController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Countries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Backend.Controllers.CountriesController",
+    "Method": "PostAsync",
+    "RelativePath": "api/Countries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "Orders.Shared.Entities.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Backend.Controllers.CountriesController",
+    "Method": "PutAsync",
+    "RelativePath": "api/Countries",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "Orders.Shared.Entities.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Backend.Controllers.CountriesController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Countries/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Backend.Controllers.CountriesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Countries/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

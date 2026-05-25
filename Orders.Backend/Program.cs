@@ -3,12 +3,27 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer("name=LocalConnection")); //Conexion a la base de datos.
+builder.Services.AddSwaggerGen();
+builder.Services.AddRazorPages();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(
+    builder.Configuration.GetConnectionString("LocalConnection")
+    )); //Conexion a la base de datos.
 
 var app = builder.Build(); //Inyectar todo antes del build para que se configure correctamente.
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .SetIsOriginAllowed(origin => true)
+    .AllowCredentials()
+);
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 if (!app.Environment.IsDevelopment())
 {
@@ -18,6 +33,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.MapControllers(); //Esto para que se puedan usar los controladores. Es necesario para que funcione la API.
 
 app.UseRouting();
 
