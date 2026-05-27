@@ -1024,9 +1024,6 @@ C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\f
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\ya7qwc3va1-{0}-tptq2av103-tptq2av103.gz
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\rpo9fb8zyn-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\2mdorwf4rg-{0}-oyz0vx2fzb-oyz0vx2fzb.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\pgtpav5yvg-{0}-f4p3jzmz8t-f4p3jzmz8t.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\5exigujg31-{0}-zawtswmr0o-zawtswmr0o.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\bdgitvsmj3-{0}-dymw5z35ay-dymw5z35ay.gz
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\staticwebassets.development.json
@@ -1038,3 +1035,6 @@ C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\Orders.Front
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\refint\Orders.Frontend.dll
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\Orders.Frontend.pdb
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\ref\Orders.Frontend.dll
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\pgtpav5yvg-{0}-k61ydgkrea-k61ydgkrea.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\5exigujg31-{0}-u6ckk31on9-u6ckk31on9.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\bdgitvsmj3-{0}-epszi8uxpd-epszi8uxpd.gz
