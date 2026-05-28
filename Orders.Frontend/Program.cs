@@ -7,7 +7,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7095/") });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7131/") });
 builder.Services.AddScoped<IRepository, Repository>(); //Inyección de dependencias para el repositorio.
                                                        //Esto permite que cualquier componente que necesite una instancia de IRepository reciba una instancia de Repository automáticamente.
                                                        //Solo obtiene respuesta del Repositorio, no de la API directamente.
