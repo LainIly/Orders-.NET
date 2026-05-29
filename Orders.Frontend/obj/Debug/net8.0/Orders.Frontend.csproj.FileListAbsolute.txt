@@ -1042,8 +1042,8 @@ C:\Users\ilyla\source\repos\Orders\Orders.Frontend\bin\Debug\net8.0\wwwroot\_fra
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\bin\Debug\net8.0\Orders.Shared.dll
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\bin\Debug\net8.0\Orders.Shared.pdb
 C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\webcil\Orders.Shared.wasm
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\b4psjj18c4-{0}-z3znkf2zph-z3znkf2zph.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\aj1cj084l8-{0}-olftibh6u9-olftibh6u9.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\pgtpav5yvg-{0}-9n3m5azwuf-9n3m5azwuf.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\5exigujg31-{0}-fjjqdvualm-fjjqdvualm.gz
-C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\bdgitvsmj3-{0}-nu4ckns6qd-nu4ckns6qd.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\b4psjj18c4-{0}-zxonlljkf5-zxonlljkf5.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\aj1cj084l8-{0}-pviakmfxm2-pviakmfxm2.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\pgtpav5yvg-{0}-6ybti8gtqy-6ybti8gtqy.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\5exigujg31-{0}-nzjn40h6xo-nzjn40h6xo.gz
+C:\Users\ilyla\source\repos\Orders\Orders.Frontend\obj\Debug\net8.0\compressed\bdgitvsmj3-{0}-d5hrm9f1jb-d5hrm9f1jb.gz

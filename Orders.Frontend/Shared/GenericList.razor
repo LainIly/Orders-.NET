@@ -1,0 +1,31 @@
+﻿@typeparam TItem
+
+@if (MyList is null)
+{
+    @if (Loading is null)
+    {
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="https://img.pikbest.com/png-images/qiantu/cartoon-snail-loading-in-progress-loading-in-progress_2729003.png!sw800" style="width:300px; height:300px"/>
+        </div>
+    }
+    else
+    {
+        @Loading
+    @*Componente de carga personalizado. Se pasa de un razor a otro razor a traves de un RenderFragment.*@
+    }
+}
+else if (MyList.Count is 0) @*Si mi lista no es nula pero no tiene elementos, muestro un mensaje de que no hay registros para mostrar.*@
+{
+    @if (NoRecords is null)
+    {
+        <p>No hay registros para mostrar.</p>
+    } else
+    {
+        @NoRecords
+        @*Si hay, muestro el mensaje personalizado que se le pasó a través de un RenderFragment.*@
+    }
+} else
+{
+    @Body
+    @*Si mi lista tiene elementos, muestro el contenido que se le pasó a través del RenderFragment Body.*@
+}

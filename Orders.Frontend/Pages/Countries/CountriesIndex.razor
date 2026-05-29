@@ -1,45 +1,32 @@
 ﻿@page "/countries"
-@inject IRepository repository
 
 <h3>Paises</h3>
 
-@if (Countries == null)
-{
-    <p>Cargando paises...</p>
-}
-else
-{
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Pais</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var country in Countries!)
-            {
+<div class="mb-3">
+    <a class="btn btn-primary" href="/countries/create">Agregar Pais</a>
+</div>
+
+<GenericList MyList="Countries"> @*Componenete generico que se le debe pasar la lista de paises*@
+    <Body> @*Body obligatorio para el componente generico*@
+        <table class="table table-striped">
+            <thead>
                 <tr>
-                    <th>@country.Name</th>
-                    <th>
-                        <a class="btn btn-warning">Editar</a>
-                        <button class="btn btn-danger">Eliminar</button>
-                    </th>
+                    <th>Pais</th>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-
-
-@code {
-    public List<Country>? Countries { get; set; } //Puede ser nulos porque puede que no hayan paises en la base de datos.
-
-    protected async override Task OnInitializedAsync() //inicializacion por defecto. Despues obtenemos respuesta.
-    {
-        await base.OnInitializedAsync(); //Solo se usa para cuando necesitas que la pagina que cargue haga algo.
-
-        var responseHttp = await repository.GetAsync<List<Country>>("api/countries");
-        Countries = responseHttp.Response;
-    }
-}
+            </thead>
+            <tbody>
+                @foreach (var country in Countries!)
+                {
+                    <tr>
+                        <td>@country.Name</td>
+                        <td>
+                            <a class="btn btn-warning">Editar</a>
+                            <button class="btn btn-danger">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </Body>
+</GenericList>
